@@ -13,9 +13,9 @@ Run the app :
 
 - [Le projet](#le-projet)
 - [Node JS](#Node-JS)
-- [Utilisation d'une API](#Utilisation-d-une-API)
+- [Utilisation d'une API](#Utilisation-dune-API)
 - [Connection avec facebook](#Connection-avec-facebook)
-- [NLP (Natural Language Processing)](#nlp)
+- [NLP (Natural Language Processing)](#nlp-natural-language-processing)
 
 ## Introduction
 
