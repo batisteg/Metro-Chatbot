@@ -11,8 +11,11 @@ Run the app :
 
 ## Table des matières <!-- omit in toc -->
 
-- [Introduction](#introduction)
 - [Le projet](#le-projet)
+- [Node JS](#Node-JS)
+- [Utilisation d'une API](#Utilisation-d-une-API)
+- [Connection avec facebook](#Connection-avec-facebook)
+- [NLP (Natural Language Processing)](#nlp)
 
 ## Introduction
 
