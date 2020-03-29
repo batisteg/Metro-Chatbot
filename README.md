@@ -20,6 +20,12 @@ Facebook Page : TestBot (https://www.facebook.com/TestBot-100527764823266/?modal
 
 Node JS
 
+create NodeJs project : 
+```npm init```
+
+install packages : 
+```npm install body-parser, axios, express, crypto```
+
 Administrateur : Baptiste Goasduff
 
 Api used : https://github.com/pgrimaud/horaires-ratp-api
