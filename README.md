@@ -1,6 +1,6 @@
 # Metro-Chatbot
 
-Project of Chatbot and Recommendations System
+ESILV A4 : Chatbot and Recommendations System
 
 Done by Baptiste Goasduff
 
