@@ -12,12 +12,6 @@ Facebook Page : TestBot (https://www.facebook.com/TestBot-100527764823266/?modal
 
 ---
 
-
-<img src="images/RATP.svg"  width="150" height="150" />
-
-
----
-
 ### Node JS
 
 create NodeJs project : 
@@ -28,9 +22,12 @@ install packages :
 
 ---
 
-Administrateur : Baptiste Goasduff
 
 Api used : https://github.com/pgrimaud/horaires-ratp-api
+
+<img src="images/RATP.svg"  width="150" height="150" />
+
+---
 
 Webhook 
 
