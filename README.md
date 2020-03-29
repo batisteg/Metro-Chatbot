@@ -4,6 +4,9 @@ ESILV A4 (2019-2020) : Chatbot and Recommendations System
 
 Done by Baptiste Goasduff
 
+Run the app : 
+```node server.js```
+
 ---
 
 ### Le projet
@@ -52,5 +55,3 @@ Utilisation de https://wit.ai/ pour trouver les entities (intent ... ) par rappo
 
 ---
 
-Run the app : 
-```node server.js```
