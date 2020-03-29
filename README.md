@@ -14,6 +14,9 @@ Facebook Page : TestBot (https://www.facebook.com/TestBot-100527764823266/?modal
 
 ![Image of Metro](images/metro.jpg)
 
+
+<img src="images/metro.jpg" />
+
 Node JS
 
 Administrateur : Baptiste Goasduff
