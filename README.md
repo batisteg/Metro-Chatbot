@@ -1,5 +1,10 @@
 # Metro-Chatbot
 
+Project of Chatbot and Recommendations System
+Done by Baptiste Goasduff
+
+---
+
 Chatbot with Messenger Facebook
 
 Node JS
