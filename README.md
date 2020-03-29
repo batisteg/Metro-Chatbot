@@ -14,8 +14,10 @@ Webhook
 
 Utilisation de https://wit.ai/ pour trouver les entities (intent ... ) par rapport à ce que l'utilisateur écrit.
 
-ngrok command : ngrok http 3000
+ngrok command : 
+```ngrok http 3000```
 
 Change information on facebook developper Webhook and messenger 
 
-Run the app : node server.js
+Run the app : 
+```node server.js```
