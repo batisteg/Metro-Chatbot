@@ -23,6 +23,8 @@ install packages :
 ---
 
 
+### Utilisation d'une API
+
 Api used : https://github.com/pgrimaud/horaires-ratp-api
 
 <img src="images/RATP.svg"  width="150" height="150" />
