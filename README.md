@@ -13,7 +13,10 @@ Facebook Page : TestBot (https://www.facebook.com/TestBot-100527764823266/?modal
 ---
 
 
-<img src="images/RATP.svg"  width="200" height="200" />
+<img src="images/RATP.svg"  width="150" height="150" />
+
+
+---
 
 Node JS
 
