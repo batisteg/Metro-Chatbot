@@ -1,6 +1,6 @@
 # Metro-Chatbot
 
-ESILV A4 : Chatbot and Recommendations System
+ESILV A4 (2019-2020) : Chatbot and Recommendations System
 
 Done by Baptiste Goasduff
 
