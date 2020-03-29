@@ -1,3 +1,19 @@
 # Metro-Chatbot
 
-youpi
+Chatbot with Messenger Facebook
+
+Node JS
+
+Facebook Page : TestBot
+
+Administrateur : Baptiste Goasduff
+
+Api used : https://github.com/pgrimaud/horaires-ratp-api
+
+Webhook 
+
+ngrok command : ngrok http 3000
+
+Change information on facebook developper Webhook and messenger 
+
+Run the app : node server.js
