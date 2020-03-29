@@ -12,6 +12,8 @@ Api used : https://github.com/pgrimaud/horaires-ratp-api
 
 Webhook 
 
+Utilisation de https://wit.ai/ pour trouver les entities (intent ... ) par rapport à ce que l'utilisateur écrit.
+
 ngrok command : ngrok http 3000
 
 Change information on facebook developper Webhook and messenger 
