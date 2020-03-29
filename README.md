@@ -9,6 +9,13 @@ Run the app :
 
 ---
 
+## Table des matières <!-- omit in toc -->
+
+- [Introduction](#introduction)
+- [Le projet](#le-projet)
+
+## Introduction
+
 ### Le projet
 
 Création d'un Chatbot connecté à Facebook Messenger.
