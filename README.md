@@ -6,9 +6,11 @@ Done by Baptiste Goasduff
 
 ---
 
-Chatbot connecté à Facebook Messenger.
+### Le projet
 
-Facebook Page : TestBot (https://www.facebook.com/TestBot-100527764823266/?modal=admin_todo_tour)
+Création d'un Chatbot connecté à Facebook Messenger.
+
+Chatbot permettant d'obtenir des informations sur le métro parisien.
 
 ---
 
@@ -25,13 +27,15 @@ install packages :
 
 ### Utilisation d'une API
 
-Api used : https://github.com/pgrimaud/horaires-ratp-api
+Api utilisée : https://github.com/pgrimaud/horaires-ratp-api
 
 <img src="images/RATP.svg"  width="150" height="150" />
 
 ---
 
 Webhook 
+
+Facebook Page : TestBot (https://www.facebook.com/TestBot-100527764823266/?modal=admin_todo_tour)
 
 Utilisation de https://wit.ai/ pour trouver les entities (intent ... ) par rapport à ce que l'utilisateur écrit.
 
