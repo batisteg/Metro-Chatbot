@@ -41,7 +41,9 @@ const getWeather = location => {
 const getSchedule = (line,station) => {
     return new Promise( async ( resolve , reject ) => {
     try {
-    const metroSchedule = await axios.get('https://api-ratp.pierre-grimaud.fr/v4/schedules/metros/'+line+'/'+station+"/R");
+    console.log("station : "+station);
+    console.log("ligne : "+line);
+    const metroSchedule = await axios.get('https://api-ratp.pierre-grimaud.fr/v4/schedules/metros/'+line+'/'+station+'/A+R');
     console.log(metroSchedule.data.result.schedules)
     resolve(metroSchedule.data.result.schedules); // returns back the results to the chatbot
     }
@@ -62,7 +64,7 @@ module.exports = nlpData => {
 
         if(intent=='greeting')
         {
-            var reponse = 'Bonjour ! Quelles informations souhaites tu obtenir ? ';
+            var reponse = 'Bonjour ! Quelles informations souhaitez vous obtenir ? ';
             resolve(reponse);
         }
 
@@ -95,7 +97,11 @@ module.exports = nlpData => {
                     console.log(infoSchedule)
                     if(infoSchedule[0].message!='Schedules unavailable')
                     {
-                        var reponse = 'prochains metro ligne '+line+', station '+station+' direction '+infoSchedule[0].destination+' dans '+infoSchedule[0].message;
+                        var reponse = 'Prochains metros ligne '+line+', station '+station + ' :'
+                                        +'\n'   
+                                        +'Direction '+infoSchedule[0].destination+' : '+infoSchedule[0].message
+                                        +'\n'
+                                        +'Direction '+infoSchedule[4].destination+' : '+infoSchedule[4].message;
                         resolve(reponse);
                     }
                     else
@@ -120,6 +126,17 @@ module.exports = nlpData => {
 
         }
 
+        if(intent=='thanks')
+        {
+            var reponse = "Pas de soucis ! N'hésitez pas si vous avez d'autres questions !";
+            resolve(reponse);
+        }
+
+        if(intent=='bye')
+        {
+            var reponse = "Au revoir, à la prochaine !";
+            resolve(reponse);
+        }
 
 
 
